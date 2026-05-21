@@ -155,6 +155,27 @@ a.callbtn {
 .up   { top: 219px; }
 .down { top: 250px; background-position-y: -31px; }
 
+/* Floor number plate (left of elevator door) */
+.floor-plate {
+    position: absolute;
+    top: 130px;
+    left: 188px;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(to bottom, #f0f0f0, #b8b8b8);
+    border: 2px solid #4a4a4a;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+    text-align: center;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1a1a1a;
+    z-index: 2;
+    pointer-events: none;
+}
+
 /* Digits */
 .digits {
     position: absolute;
